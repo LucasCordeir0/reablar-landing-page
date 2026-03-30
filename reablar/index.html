@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="ReabLar - Fisioterapia domiciliar com cuidado humano e profissionalismo. Atendimento personalizado no conforto da sua casa.">
+    <title>ReabLar | Fisioterapia Domiciliar</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header" id="header">
+        <div class="container header-container">
+            <a href="#" class="logo">
+                <img src="logo.png" alt="ReabLar - Fisioterapia Domiciliar">
+                <span>Reab<span>Lar</span></span>
+            </a>
+
+            <nav class="nav" id="nav">
+                <ul class="nav-list">
+                    <li><a href="#hero" class="nav-link">Início</a></li>
+                    <li><a href="#servicos" class="nav-link">Serviços</a></li>
+                    <li><a href="#sobre" class="nav-link">Sobre</a></li>
+                    <li><a href="#contato" class="nav-link">Contato</a></li>
+                </ul>
+            </nav>
+
+            <a href="https://wa.me/5561993705603?text=Olá,%20gostaria%20de%20agendar%20um%20atendimento"
+               class="btn btn-header" target="_blank" rel="noopener noreferrer">
+                <i class="fab fa-whatsapp"></i>
+                <span>Agendar Atendimento</span>
+            </a>
+
+            <button class="menu-toggle" id="menuToggle" aria-label="Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="container hero-container">
+            <div class="hero-content">
+                <span class="hero-badge">Fisioterapia Domiciliar</span>
+                <h1 class="hero-title">
+                    Recupere sua saúde no <span class="highlight">conforto da sua casa</span>
+                </h1>
+                <p class="hero-subtitle">
+                    Atendimento fisioterapêutico personalizado com profissionais qualificados,
+                    trazendo cuidado humano e tecnologia para o seu lar.
+                </p>
+                <div class="hero-buttons">
+                    <a href="https://wa.me/5561993705603?text=Olá,%20gostaria%20de%20agendar%20um%20atendimento"
+                       class="btn btn-primary btn-large" target="_blank" rel="noopener noreferrer">
+                        <i class="fab fa-whatsapp"></i>
+                        Agendar agora
+                    </a>
+                    <a href="#servicos" class="btn btn-outline btn-large">
+                        Conhecer serviços
+                    </a>
+                </div>
+                <div class="hero-features">
+                    <div class="hero-feature">
+                        <i class="fas fa-check-circle"></i>
+                        <span>Profissionais certificados</span>
+                    </div>
+                    <div class="hero-feature">
+                        <i class="fas fa-check-circle"></i>
+                        <span>Atendimento personalizado</span>
+                    </div>
+                    <div class="hero-feature">
+                        <i class="fas fa-check-circle"></i>
+                        <span>Horários flexíveis</span>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="hero-image-wrapper">
+                    <div class="hero-placeholder">
+                        <i class="fas fa-hands-helping"></i>
+                        <p>Cuidado que vem até você</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="hero-wave">
+            <svg viewBox="0 0 1440 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M0 120L60 105C120 90 240 60 360 45C480 30 600 30 720 37.5C840 45 960 60 1080 67.5C1200 75 1320 75 1380 75L1440 75V120H1380C1320 120 1200 120 1080 120C960 120 840 120 720 120C600 120 480 120 360 120C240 120 120 120 60 120H0Z" fill="#F5F5F5"/>
+            </svg>
+        </div>
+    </section>
+
+    <!-- Serviços -->
+    <section class="services" id="servicos">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">Nossos Serviços</span>
+                <h2 class="section-title">Especialidades que oferecemos</h2>
+                <p class="section-subtitle">
+                    Tratamentos personalizados para cada necessidade, com abordagem
+                    humanizada e técnicas modernas de fisioterapia.
+                </p>
+            </div>
+
+            <div class="services-grid">
+                <div class="service-card" data-aos="fade-up">
+                    <div class="service-icon">
+                        <i class="fas fa-bone"></i>
+                    </div>
+                    <h3>Fisioterapia Ortopédica</h3>
+                    <p>Recuperação de lesões musculares, articulares e ósseas com técnicas especializadas para restaurar sua mobilidade.</p>
+                    <ul class="service-list">
+                        <li><i class="fas fa-check"></i> Tratamento de fraturas</li>
+                        <li><i class="fas fa-check"></i> Lesões esportivas</li>
+                        <li><i class="fas fa-check"></i> Dor na coluna</li>
+                    </ul>
+                </div>
+
+                <div class="service-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="service-icon">
+                        <i class="fas fa-user-md"></i>
+                    </div>
+                    <h3>Reabilitação Pós-Cirúrgica</h3>
+                    <p>Acompanhamento especializado após procedimentos cirúrgicos para uma recuperação mais rápida e segura.</p>
+                    <ul class="service-list">
+                        <li><i class="fas fa-check"></i> Pós-operatório ortopédico</li>
+                        <li><i class="fas fa-check"></i> Recuperação funcional</li>
+                        <li><i class="fas fa-check"></i> Redução de edema</li>
+                    </ul>
+                </div>
+
+                <div class="service-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="service-icon">
+                        <i class="fas fa-wheelchair"></i>
+                    </div>
+                    <h3>Fisioterapia Geriátrica</h3>
+                    <p>Cuidado especializado para idosos, focando na manutenção da autonomia e qualidade de vida.</p>
+                    <ul class="service-list">
+                        <li><i class="fas fa-check"></i> Prevenção de quedas</li>
+                        <li><i class="fas fa-check"></i> Mobilidade funcional</li>
+                        <li><i class="fas fa-check"></i> Condicionamento físico</li>
+                    </ul>
+                </div>
+
+                <div class="service-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="service-icon">
+                        <i class="fas fa-lungs"></i>
+                    </div>
+                    <h3>Fisioterapia Respiratória</h3>
+                    <p>Tratamento para condições respiratórias, melhorando a capacidade pulmonar e qualidade de vida.</p>
+                    <ul class="service-list">
+                        <li><i class="fas fa-check"></i> DPOC e asma</li>
+                        <li><i class="fas fa-check"></i> Reabilitação pulmonar</li>
+                        <li><i class="fas fa-check"></i> Infecções respiratórias</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sobre -->
+    <section class="about" id="sobre">
+        <div class="container about-container">
+            <div class="about-image">
+                <div class="about-image-wrapper">
+                    <div class="about-placeholder">
+                        <i class="fas fa-user-nurse"></i>
+                        <p>Profissionais dedicados ao seu cuidado</p>
+                    </div>
+                    <div class="about-experience">
+                        <span class="experience-number">10+</span>
+                        <span class="experience-text">anos de experiência</span>
+                    </div>
+                </div>
+            </div>
+            <div class="about-content">
+                <span class="section-badge">Sobre a ReabLar</span>
+                <h2 class="section-title">Cuidado humano que faz a diferença</h2>
+                <p class="about-text">
+                    A <strong>ReabLar</strong> nasceu com a missão de levar fisioterapia de qualidade
+                    diretamente para o lar dos pacientes. Acreditamos que o ambiente familiar é
+                    fundamental para uma recuperação mais rápida e confortável.
+                </p>
+                <p class="about-text">
+                    Nossa equipe é formada por profissionais altamente qualificados, com especializações
+                    nas mais diversas áreas da fisioterapia. Cada paciente recebe um plano de tratamento
+                    personalizado, desenvolvido após avaliação detalhada das suas necessidades.
+                </p>
+                <div class="about-features">
+                    <div class="about-feature">
+                        <i class="fas fa-certificate"></i>
+                        <div>
+                            <h4>Profissionais Certificados</h4>
+                            <p>Equipe com formação contínua e especializações reconhecidas.</p>
+                        </div>
+                    </div>
+                    <div class="about-feature">
+                        <i class="fas fa-clock"></i>
+                        <div>
+                            <h4>Horários Flexíveis</h4>
+                            <p>Agendamento conforme sua disponibilidade e necessidade.</p>
+                        </div>
+                    </div>
+                    <div class="about-feature">
+                        <i class="fas fa-home"></i>
+                        <div>
+                            <h4>Conforto do Lar</h4>
+                            <p>Todo o equipamento necessário levado até você.</p>
+                        </div>
+                    </div>
+                </div>
+                <a href="https://wa.me/5599999999999?text=Olá,%20gostaria%20de%20conhecer%20mais%20sobre%20a%20ReabLar"
+                   class="btn btn-primary" target="_blank" rel="noopener noreferrer">
+                    <i class="fab fa-whatsapp"></i>
+                    Saiba mais
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Diferenciais -->
+    <section class="features">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">Por que nos escolher</span>
+                <h2 class="section-title">Diferenciais ReabLar</h2>
+            </div>
+            <div class="features-grid">
+                <div class="feature-item">
+                    <div class="feature-icon">
+                        <i class="fas fa-stethoscope"></i>
+                    </div>
+                    <h3>Avaliação Completa</h3>
+                    <p>Diagnóstico detalhado para um plano de tratamento assertivo.</p>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-icon">
+                        <i class="fas fa-hand-holding-heart"></i>
+                    </div>
+                    <h3>Atendimento Humanizado</h3>
+                    <p>Cuidado que vai além da técnica, com empatia e atenção.</p>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-icon">
+                        <i class="fas fa-sync-alt"></i>
+                    </div>
+                    <h3>Atualização Constante</h3>
+                    <p>Técnicas modernas baseadas em evidências científicas.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- CTA Final -->
+    <section class="cta" id="contato">
+        <div class="container cta-container">
+            <div class="cta-content">
+                <h2>Pronto para começar sua recuperação?</h2>
+                <p>
+                    Agende uma avaliação e descubra como a fisioterapia domiciliar
+                    pode transformar sua qualidade de vida.
+                </p>
+                <div class="cta-buttons">
+                    <a href="https://wa.me/5561993705603?text=Olá,%20gostaria%20de%20agendar%20um%20atendimento"
+                       class="btn btn-white btn-large" target="_blank" rel="noopener noreferrer">
+                        <i class="fab fa-whatsapp"></i>
+                        Falar no WhatsApp
+                    </a>
+                </div>
+                <div class="cta-contact">
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <span>(61) 99370-5603</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fab fa-instagram"></i>
+                        <span>@reablarfisiodomiciliar</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>Atendimento em todo o domicílio</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-about">
+                    <a href="#" class="logo">
+                        <img src="logo.png" alt="ReabLar - Fisioterapia Domiciliar">
+                    </a>
+                    <p>
+                        Fisioterapia domiciliar com cuidado humano e profissionalismo.
+                        Levamos saúde e bem-estar até você.
+                    </p>
+                    <div class="social-links">
+                        <a href="https://instagram.com/reablarfisiodomiciliar" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+
+                <div class="footer-links">
+                    <h4>Links Rápidos</h4>
+                    <ul>
+                        <li><a href="#hero">Início</a></li>
+                        <li><a href="#servicos">Serviços</a></li>
+                        <li><a href="#sobre">Sobre</a></li>
+                        <li><a href="#contato">Contato</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-services">
+                    <h4>Serviços</h4>
+                    <ul>
+                        <li>Fisioterapia Ortopédica</li>
+                        <li>Pós-Cirúrgico</li>
+                        <li>Fisioterapia Geriátrica</li>
+                        <li>Fisioterapia Respiratória</li>
+                    </ul>
+                </div>
+
+                <div class="footer-contact">
+                    <h4>Contato</h4>
+                    <ul>
+                        <li><i class="fas fa-phone"></i> (61) 99370-5603</li>
+                        <li><i class="fab fa-instagram"></i> @reablarfisiodomiciliar</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2026 ReabLar Fisioterapia. Todos os direitos reservados.</p>
+                <div class="footer-legal">
+                    <a href="#">Política de Privacidade</a>
+                    <a href="#">Termos de Uso</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Button -->
+    <a href="https://wa.me/5561993705603?text=Olá,%20gostaria%20de%20agendar%20um%20atendimento"
+       class="whatsapp-float"
+       target="_blank"
+       rel="noopener noreferrer"
+       aria-label="Falar no WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+</body>
+</html>
